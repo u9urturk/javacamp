@@ -1,15 +1,16 @@
 
 public class InstructorManager extends UserManager {
-	public void add(User user) {
-		System.out.println("Sisteme " + user.getFirstName() + " isimli eðitmen eklendi.");
+	public void add(Instructor instructor) {
+		System.out.println("Sisteme " + instructor.getFirstName() + " isimli eðitmen eklendi.");
+		System.out.println("Branþ : " + instructor.getEducation());
 	}
 	
-	public void delete(User user) {
-		System.out.println("Sistemden " + user.getFirstName() + " isimli eðitmen silindi.");
+	public void delete(Instructor instructor) {
+		System.out.println("Sistemden " + instructor.getFirstName() + " isimli eðitmen silindi.");
 	}
 	
-	public void update(User user) {
-		System.out.println("Sistemde " + user.getFirstName() + " isimli eðitmen ile ilgili güncelleme gerçeleþti.");
+	public void update(Instructor instructor) {
+		System.out.println("Sistemde " + instructor.getFirstName() + " isimli eðitmen ile ilgili güncelleme gerçekleþti.");
 	}
 	
 	public void createInstruction(Instructor instructor) {

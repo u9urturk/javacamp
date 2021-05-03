@@ -1,20 +1,21 @@
 
 public class StudentManager extends UserManager {
 	
-	public void add(User user) {
+	public void add(Student  student) {
 	
-		System.out.println("Sisteme " + user.getFirstName() + " isimli öðrenci eklendi.");
+		System.out.println("Sisteme " + student.getFirstName() + " isimli öðrenci eklendi.");
+		System.out.println("Öðrenilen ders : " + student.getMyLesson());
 	}
 	
-	public void delete(User user) {
-		System.out.println("Sistemden " + user.getFirstName() + " isimli Öðrenci silindi.");
+	public void delete(Student  student) {
+		System.out.println("Sistemden " + student.getFirstName() + " isimli Öðrenci silindi.");
 	}
 	
-	public void update(User user) {
-		System.out.println("Sistemde " + user.getFirstName() + " isimli Öðrenci ile ilgili güncelleme gerçeleþti.");
+	public void update(Student  student) {
+		System.out.println("Sistemde " + student.getFirstName() + " isimli Öðrenci ile ilgili güncelleme gerçekleþti.");
 	}
 	
-	public void selectLesson(Student student) {
+	public void selectLesson(Student  student) {
 		System.out.println("Seçilen ders : " + student.getMyLesson());
 	}
 }

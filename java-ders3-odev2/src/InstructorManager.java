@@ -13,6 +13,6 @@ public class InstructorManager extends UserManager {
 	}
 	
 	public void createInstruction(Instructor instructor) {
-		System.out.println("Oluþturulan eðitim : " + instructor.getInstraction());
+		System.out.println("Oluþturulan eðitim : " + instructor.getEducation());
 	}
 }

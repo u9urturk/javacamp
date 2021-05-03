@@ -1,18 +1,20 @@
 
 public class Instructor extends User {
 	
-	private String instraction;
+	private String education;
 	
 	public Instructor() {
 		
 	}
 
-	public String getInstraction() {
-		return instraction;
+	public String getEducation() {
+		return education;
 	}
 
-	public void setInstraction(String instraction) {
-		this.instraction = instraction;
+	public void setEducation(String education) {
+		this.education = education;
 	}
+
+	
 
 }

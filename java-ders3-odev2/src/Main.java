@@ -16,7 +16,7 @@ public class Main {
 		instructor.setLastName("Demiroð");
 		instructor.setEmail("engin@mail.com");
 		instructor.setBornDate(1986);
-		instructor.setInstraction("Java");
+		instructor.setEducation("Java");
 		
 		
 		OperationsUI operationsUI1 = new OperationsUI();

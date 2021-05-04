@@ -7,3 +7,10 @@
 ![Ekran Alıntısı](https://user-images.githubusercontent.com/77547474/117014153-328f0500-acf9-11eb-9da7-6d86befcd672.PNG)
 
 
+## 4-ders-ödev-3-javaSE1.8
+![main](https://user-images.githubusercontent.com/77547474/117075276-3a709880-ad3d-11eb-8d57-55fab087efc9.PNG)
+![console](https://user-images.githubusercontent.com/77547474/117075293-3fcde300-ad3d-11eb-98ad-0fe25b5f5255.PNG)
+
+
+
+

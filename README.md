@@ -1,10 +1,8 @@
 # javacamp
 
-## java-ders5-ödev1
+## java-ders5-odev1
 
-<iframe width="420" height="320"
-src="https://youtu.be/-4tdEfbF1NY">
-</iframe>
+
 
 ## java-ders3-odev2
 ![Ekran Alıntısı](https://user-images.githubusercontent.com/77547474/116893861-1ed09980-ac3a-11eb-97c0-e027bc9cd294.PNG)

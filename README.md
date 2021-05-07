@@ -2,7 +2,7 @@
 
 ## java-ders5-odev1
 
-[![Go](https://i9.ytimg.com/vi/-4tdEfbF1NY/mq2.jpg?sqp=CLT304QG&rs=AOn4CLCSWJwCBE7OfhLo07fsfS5dDiQbbA)](https://www.youtube.com/watch?v=-4tdEfbF1NY "Go")
+[![ders5](https://user-images.githubusercontent.com/77547474/117423250-31441f00-af29-11eb-8b64-ec34fe36429c.PNG)](https://www.youtube.com/watch?v=-4tdEfbF1NY "Go")
 
 
 ## java-ders3-odev2

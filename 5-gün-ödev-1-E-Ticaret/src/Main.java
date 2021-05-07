@@ -18,8 +18,8 @@ public class Main {
 	public static void main(String[] args) {
 		
 		/*Not : bu projede istenilen operasyonlari console ile  etkilesimli bir sekilde yurutmeye calýstým fakat þuan  icin gonderdigim veriyi 
-		 * her islemde hafýzada tutamamam nedeniyle simdilik e-posta eslesmesi ve e-posta dogrulama operasyonlarýný console uzerinden 
-		 * gosteremiyorum fakat operasyonlar calýsmakta. kodlarý inceleyerek kendi projenize uyarlayabilirsiniz.  
+		 * her islemde hafizada tutamamam nedeniyle simdilik e-posta eslesmesi ve e-posta dogrulama operasyonlarini console uzerinden 
+		 * gosteremiyorum fakat operasyonlar calismakta. kodlarý inceleyerek kendi projenize uyarlayabilirsiniz.  
 		
 		*/
 		// Input oluþumu

@@ -7,9 +7,10 @@ public class SendMailManager implements SendMailService {
 
 	@Override
 	public void send(UserForRegisterDto forRegisterDto) {
-		System.out.println("Doðrulama linki ilgili mail adresine gönderildi \n  " +
-	"Gönderilen adres : " + forRegisterDto.getEmail());
-		
+		System.out.println("*********************************************************************\n"
+				+"Doðrulama linki ilgili mail adresine gönderildi \n  " + "Gönderilen adres : "
+				+ forRegisterDto.getEmail());
+
 	}
 
 }

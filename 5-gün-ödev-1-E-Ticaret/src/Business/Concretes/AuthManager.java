@@ -38,8 +38,7 @@ public class AuthManager implements AuthService {
 			
 			this.sendMailService.send(forRegisterDto);
 			this.userService.add(userToRegister);
-			System.out.println("E-Ticaret Sistemine Hoþ geldiniz " + forRegisterDto.getFirstName() + " "
-					+ forRegisterDto.getLastName()
+			System.out.println("*********************************************************************************\n"
 					+ "\nKayýt iþleminizin tamamlanabilmesi için E-Posta adresinize yollanan linke týklayýnýz.");
 		}
 
@@ -50,8 +49,17 @@ public class AuthManager implements AuthService {
 		
 		var result = this.userDao.getByEmailAndPassword(forLoginDto.getEmail(), forLoginDto.getPassword());
 		
-		System.out.println("Giriþ iþlemi baþarýyla gerçekleþti\n" +
-		"Hoþ geldin  " + result.getFirstName());
+		if(result !=null) {
+			
+			System.out.println("Giriþ iþlemi baþarýyla gerçekleþti\n" +
+					"Hoþ geldin  " + result.getFirstName());
+					
+					
+		}else {
+			System.out.println("Böyle bir kullanýcý sistemde kayýtlý deðil");
+		}
+		
+		
 
 	}
 
@@ -61,10 +69,6 @@ public class AuthManager implements AuthService {
 		
 	}
 
-	@Override
-	public void login(String email, String password) {
-		// TODO Auto-generated method stub
-		
-	}
+	
 
 }

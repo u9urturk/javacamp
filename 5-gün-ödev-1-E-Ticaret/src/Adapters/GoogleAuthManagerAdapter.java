@@ -26,10 +26,6 @@ public class GoogleAuthManagerAdapter implements AuthService {
 		
 	}
 
-	@Override
-	public void login(String email, String password) {
-		google.login(email, password);
-		
-	}
+	
 
 }

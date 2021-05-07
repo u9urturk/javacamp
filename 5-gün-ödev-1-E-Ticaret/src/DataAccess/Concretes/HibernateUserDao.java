@@ -2,25 +2,33 @@ package DataAccess.Concretes;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.Collectors;
+
 import DataAccess.Abstracts.UserDao;
 import Entities.Concretes.User;
 
 public class HibernateUserDao implements UserDao {
 	
-	 List<User> users = new ArrayList<User>();
+	 private List<User> users ;
+	 
 	
 	
+	public HibernateUserDao() {
+		super();
+		this.users = new ArrayList<User>();
+	}
+
 	@Override
 	public void add(User user) {
-		users.add(user);
+		this.users.add(user);
 //		System.out.println(user.getEmail());
 //		System.out.println("Ok");
-//		this.getAll();
+		getAll();
 	}
 
 	@Override
 	public void delete(User user) {
-		users.removeIf(u->u.getId() == user.getId());
+		this.users.removeIf(u->u.getId() == user.getId());
 		
 	}
 	@Override
@@ -45,7 +53,7 @@ public class HibernateUserDao implements UserDao {
 
 	@Override
 	public User getByEmail(String email) {
-		for(User user:users) {
+		for(User user:this.users) {
 			if(user.getEmail() == email) {
 				return user;
 			}
@@ -55,12 +63,12 @@ public class HibernateUserDao implements UserDao {
 
 	@Override
 	public List<User> getAll() {
-		return users;
+		return this.users.stream().collect(Collectors.toList());
 	}
 
 	@Override
 	public User getByEmailAndPassword(String email, String password) {
-		for(User user:users) {
+		for(User user:this.users) {
 			if(user.getEmail() == email && user.getPassword() == password) {
 				return user;
 			}

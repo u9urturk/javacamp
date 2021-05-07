@@ -8,62 +8,66 @@ import Entities.Concretes.User;
 
 public class UserManager implements UserService {
 	
-	 UserDao userDao;
+	 private UserDao userDao;
 	
 	
 
 	public UserManager(UserDao userDao) {
-		super();
+		
 		this.userDao = userDao;
 	}
 
 	@Override
 	public void add(User user) {
-		userDao.add(user);
+		this.userDao.add(user);
 		
 	}
 
 	@Override
 	public void delete(User user) {
-		userDao.delete(user);
+		this.userDao.delete(user);
 		
 	}
 
 	@Override
 	public void update(User user) {
-		userDao.update(user);
+		this.userDao.update(user);
 		
 	}
 
 	@Override
 	public void verifyUser(int id) {
 		User user = userDao.getById(id);
-		user.setVerification(true);
-		System.out.println("Doðrulama iþlemin tamamlandý. Aramýza hoþ geldin " + user.getFirstName());
+		if(user != null) {
+			user.setVerification(true);
+			System.out.println("Doðrulama iþlemin tamamlandý. Aramýza hoþ geldin " + user.getFirstName());
+		}
+		
+		//System.out.println("Doðrulama iþlemin tamamlandý. Aramýza hoþ geldin " );
 		
 	}
 
 	@Override
 	public User get(int id) {
 	
-		return userDao.getById(id);
+		return this.userDao.getById(id);
 	}
 
 	@Override
 	public User getByEmail(String email) {
 		
-		return userDao.getByEmail(email);
+		return this.userDao.getByEmail(email);
 	}
 
 	@Override
 	public User getByEmailAndPassword(String email, String password) {
-		return userDao.getByEmailAndPassword(email, password);
+		return this.userDao.getByEmailAndPassword(email, password);
 		
 	}
 
 	@Override
 	public List<User> getAll() {
-		return userDao.getAll();
+		return this.userDao.getAll();
 	}
 
 }

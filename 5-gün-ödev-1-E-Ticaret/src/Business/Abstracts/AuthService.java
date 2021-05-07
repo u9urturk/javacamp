@@ -8,6 +8,6 @@ public interface AuthService {
 	void register(String email , String password) ;
 
 	void login(UserForLoginDto forLoginDto);
-	void login(String email , String password);
+	
 
 }

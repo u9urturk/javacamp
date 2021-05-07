@@ -17,9 +17,9 @@ public class Main {
 
 	public static void main(String[] args) {
 		
-		/*Not : bu projede istenilen operasyonlarý console ile  etkileþimli bir þekilde yürütmeye çalýþtým fakat þuan  için gönderdiðim veriyi 
-		 * her iþlemde hafýzada tutamamam nedeniyle þimdilik e-posta eþleþmesi ve e-posta doðrulama operasyonlarýný console üzerinden 
-		 * gösteremiyorum fakat operasyonlar çalýþmakta. kodlarý inceleyerek kendi projenize uyarlayabilirsiniz.  
+		/*Not : bu projede istenilen operasyonlari console ile  etkilesimli bir sekilde yurutmeye calýstým fakat þuan  icin gonderdigim veriyi 
+		 * her islemde hafýzada tutamamam nedeniyle simdilik e-posta eslesmesi ve e-posta dogrulama operasyonlarýný console uzerinden 
+		 * gosteremiyorum fakat operasyonlar calýsmakta. kodlarý inceleyerek kendi projenize uyarlayabilirsiniz.  
 		
 		*/
 		// Input oluþumu

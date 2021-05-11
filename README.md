@@ -1,7 +1,7 @@
 # javacamp
 
 ## HRMS Database ERD
-![hrmserd](https://user-images.githubusercontent.com/77547474/117827576-c7ee4400-b279-11eb-82b0-04fd1b8cdd08.PNG)
+![hrmserd](https://github.com/u9urturk/javacamp/blob/master/postgreSqlHRMSDatabase/images/yenier.PNG)
 
 
 ## java-ders5-odev1

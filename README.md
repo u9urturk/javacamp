@@ -1,5 +1,8 @@
 # javacamp
 
+## HRMS Database ERD
+![hrms](https://github.com/u9urturk/javacamp/blob/master/postgreSqlHRMSDatabase/images/hrmserd.PNG)
+
 ## java-ders5-odev1
 
 [![ders5](https://user-images.githubusercontent.com/77547474/117423250-31441f00-af29-11eb-8b64-ec34fe36429c.PNG)](https://www.youtube.com/watch?v=-4tdEfbF1NY "Go")
